@@ -48,6 +48,6 @@ When you're done with the infrastructure, you can destroy it by running:
 ```shell
 terraform destroy
 ```
-Note: If S3 bucket creation is taking more time, then it is becuase I might have tried that bucket name while testing, increase the project_name=netflix (in locals.tf) to next version (example netflixv1).
+Note: If the S3 bucket creation is taking more time, then it is becuase I might have tried that bucket name while testing, increase the project_name=netflix (in locals.tf) to next version (example netflixv1).
 
 Happy learning 🤗
