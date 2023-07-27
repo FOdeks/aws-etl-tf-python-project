@@ -1,6 +1,6 @@
 # AWS Serverless ETL POC
 
-Repo to create the infra for ETL process. This repo have the code to read dataset from S3, crawl the schema onto Glue data catalog, transform it via Glue Python Job and finally store it on to the DynamoDB.
+Repo to create the infra for ETL process. This repo has the code to read dataset from S3, crawl the schema onto Glue data catalog, transform it via Glue Python Job and finally store it on to the DynamoDB.
 
 This repository contains a Terraform configuration for deploying AWS resources. 
 
@@ -48,6 +48,6 @@ When you're done with the infrastructure, you can destroy it by running:
 ```shell
 terraform destroy
 ```
-Note: If s3 bucket creation is talking more time than its becuase I might have tried that bucket name while testing, increase the project_name=netflix (in locals.tf) to next version (example netflixv1).
+Note: If S3 bucket creation is taking more time, then it is becuase I might have tried that bucket name while testing, increase the project_name=netflix (in locals.tf) to next version (example netflixv1).
 
 Happy learning 🤗
